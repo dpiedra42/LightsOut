@@ -1,3 +1,66 @@
 .Board {
   margin: 0 auto;
+  box-shadow: 0 0 60px #fff, 0 0 70px #f703ea, 0 0 80px rgb(0, 102, 255)
+}
+
+@font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+}
+
+.title-board{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.neon-orange {
+  font-family: neon;
+  color: #fb42ae;
+  font-size: 80px;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #f40aa6;
+  animation: neon-orange 1s ease infinite;
+  -moz-animation: neon-orange 1s ease infinite;
+  -webkit-animation: neon-orange 1s ease infinite;
+}
+
+.neon-blue {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 80px;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+  animation: neon-blue 2s linear infinite;
+  -moz-animation: neon-blue 2s linear infinite;
+  -webkit-animation: neon-blue 2s linear infinite;
+  -o-animation: neon-blue 2s linear infinite;
+}
+
+.winner .neon-blue,
+.winnder .neon-orange {
+  font-size: 120px;
+}
+
+@keyframes neon-orange {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #fa16c9, 0 0 3vw #fa16d4, 0 0 10vw #fa16dc, 0 0 10vw #fa16dc, 0 0 .4vw #c128fe, .5vw .5vw .1vw #611480;
+    color: #f38aee;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800b67, 0 0 1.5vw #800b70, 0 0 5vw #800b6d, 0 0 5vw #800b76, 0 0 .2vw #800b7a, .5vw .5vw .1vw #330a40;
+    color: #883988;
+  }
+}
+
+@keyframes neon-blue {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28f0fe;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
 }
