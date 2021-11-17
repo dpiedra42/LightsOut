@@ -13,15 +13,15 @@
   align-items: center;
   justify-content: center;
 }
-.neon-orange {
+.neon-pink {
   font-family: neon;
   color: #fb42ae;
   font-size: 80px;
   line-height: 9vw;
   text-shadow: 0 0 3vw #f40aa6;
-  animation: neon-orange 1s ease infinite;
-  -moz-animation: neon-orange 1s ease infinite;
-  -webkit-animation: neon-orange 1s ease infinite;
+  animation: neon-pink 1s ease infinite;
+  -moz-animation: neon-pink 1s ease infinite;
+  -webkit-animation: neon-pink 1s ease infinite;
 }
 
 .neon-blue {
@@ -37,11 +37,11 @@
 }
 
 .winner .neon-blue,
-.winnder .neon-orange {
+.winnder .neon-pink {
   font-size: 120px;
 }
 
-@keyframes neon-orange {
+@keyframes neon-pink {
   0%,
   100% {
     text-shadow: 0 0 1vw #fa16c9, 0 0 3vw #fa16d4, 0 0 10vw #fa16dc, 0 0 10vw #fa16dc, 0 0 .4vw #c128fe, .5vw .5vw .1vw #611480;

@@ -76,14 +76,14 @@ class Board extends Component {
         {this.state.hasWon ? (
           <div className="title-board">
             <div className="winner">
-              <span className="neon-orange">YOU</span>
+              <span className="neon-pink">YOU</span>
               <span className="neon-blue">WON</span>
             </div>
          </div>
       ) : (
         <div>
           <div className="title-board">
-            <div className="neon-orange">Lights</div>
+            <div className="neon-pink">Lights</div>
             <div className="neon-blue">Out</div>
           </div>
           <table className="Board">
